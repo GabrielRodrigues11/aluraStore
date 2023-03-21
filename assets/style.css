@@ -128,7 +128,7 @@ body {
 .rodape {
     text-align: center;
     margin: 10em 0;
-    height: 110px;
+    height: 100px;
 }
 
 .rodape__lista {
@@ -153,5 +153,37 @@ body {
     font-size: 14px;
     color: var(--cinza-secundario);
     margin: 2em 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__img {
+        width: 50vh;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__img {
+        width: 50vh;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
 }
 
