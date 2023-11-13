@@ -1,3 +1,3 @@
 # aluraStore
  
-Irei desenvolver esse projeto com Html e Css puro
+Desenvolvi esse projeto junto ao curso de css da Alura.
